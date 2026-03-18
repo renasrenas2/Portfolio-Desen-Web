@@ -1,0 +1,39 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    padding: 120px 0;
+}
+
+/* Animação dos Cards */
+.card-profile, .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+
+.card-profile:hover, .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Ajustes de Seção */
+section {
+    border-bottom: 1px solid #eee;
+}
+
+h2 {
+    color: #1e3c72;
+}
+
+/* Formulário */
+.form-control:focus {
+    border-color: #2a5298;
+    box-shadow: 0 0 0 0.2rem rgba(42, 82, 152, 0.25);
+}
